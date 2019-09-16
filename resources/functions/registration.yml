@@ -1,0 +1,18 @@
+handler: functions/registration.handler
+events:
+  - http:
+      # path: /${self:custom.version}/registration
+      path: /v1/registration
+      method: get
+      cors: true
+      authorizer:
+        name: authorizerFunc
+        resultTtlInSeconds: 0
+environment:
+  USER_TABLE: "USER_TABLE"
+# layers:
+#   - ${self:provider.commonLibs}
+#   - ${self:provider.appRuntime}
+package:
+  include:
+    - functions/registration.js

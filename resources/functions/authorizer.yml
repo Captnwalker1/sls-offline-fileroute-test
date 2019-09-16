@@ -1,0 +1,7 @@
+handler: functions/authorizer.handler
+# layers:
+#   - ${self:provider.commonLibs}
+#   - ${self:provider.appRuntime}
+package:
+ include:
+  - functions/authorizer.js

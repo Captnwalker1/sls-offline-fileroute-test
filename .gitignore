@@ -1,0 +1,19 @@
+# package directories
+node_modules
+node_modules_aws
+node_modules_local
+examples
+xnm
+diff
+coverage
+package2.json
+mochawesome-report
+# Serverless directories
+.serverless
+.nyc_output
+.webpack
+.importjs.js
+cache-data
+.env
+util
+tmp
