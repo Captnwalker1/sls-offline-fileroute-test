@@ -34,7 +34,7 @@
     "jsonwebtoken": "8.5.0",
     "jspath": "0.4.0",
     "jwks-rsa": "1.5.0",
-    "lodash": "4.17.15",
+    "lodash": "4.17.21",
     "log-buffer": "0.0.3",
     "memcached": "2.2.2",
     "memcached-promisify": "2.0.0",
